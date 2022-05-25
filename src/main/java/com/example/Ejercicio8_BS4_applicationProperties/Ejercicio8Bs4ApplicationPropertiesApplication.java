@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
-@PropertySource("classpath:application.yml") //Le establecemos el path de nuestro .yml o .properties
+@PropertySource("classpath:application.properties") //Le establecemos el path de nuestro .yml o .properties
 public class Ejercicio8Bs4ApplicationPropertiesApplication {
 
 	public static void main(String[] args) {
